@@ -1,0 +1,43 @@
+@import './base.css';
+
+:root {
+  --color-background: #080b1a;
+  --color-background-soft: #11162b;
+  --color-card: #181e38;
+
+  --color-primary: #7c5cff;
+  --color-accent: #4dd9ff;
+
+  --color-text: #ffffff;
+  --color-text-secondary: #aeb5d0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: Inter, sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
